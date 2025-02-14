@@ -1,0 +1,21 @@
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/notifylk/notify-php.git"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.8.1",
+    "dompdf/dompdf": "^2.0.3",
+    "ext-mysqli": "*",
+    "notifylk/notify-php": "*@dev",
+    "ext-pdo": "*",
+    "ext-ctype": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Classes\\": "app/Classes/"
+    }
+  }
+}
